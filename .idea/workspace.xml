@@ -2,16 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b89a941-2536-423a-b7f3-cb5e39aff500" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/array/ArrayAlgo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/array/ArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array/ArrayAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/ArrayAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/array/ArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/array/ArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/array/ArrayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/array/ArrayTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,7 +59,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.ArrayTest.testSortMain">
     <configuration name="ArrayTest.arrCopy" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Algo_Train" />
       <extension name="coverage">
@@ -65,9 +78,85 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArrayTest.testArr" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Algo_Train" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="array" />
+      <option name="MAIN_CLASS_NAME" value="array.ArrayTest" />
+      <option name="METHOD_NAME" value="testArr" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayTest.testCase1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Algo_Train" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="array" />
+      <option name="MAIN_CLASS_NAME" value="array.ArrayTest" />
+      <option name="METHOD_NAME" value="testCase1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayTest.testSortMain" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Algo_Train" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="array" />
+      <option name="MAIN_CLASS_NAME" value="array.ArrayTest" />
+      <option name="METHOD_NAME" value="testSortMain" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayTest.testTwoSum" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Algo_Train" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="array" />
+      <option name="MAIN_CLASS_NAME" value="array.ArrayTest" />
+      <option name="METHOD_NAME" value="testTwoSum" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ArrayTest.testSortMain" />
+        <item itemvalue="TestNG.ArrayTest.testArr" />
         <item itemvalue="TestNG.ArrayTest.arrCopy" />
+        <item itemvalue="TestNG.ArrayTest.testTwoSum" />
+        <item itemvalue="TestNG.ArrayTest.testCase1" />
       </list>
     </recent_temporary>
   </component>
@@ -93,7 +182,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578409618610</updated>
-      <workItem from="1578409622680" duration="3512000" />
+      <workItem from="1578409622680" duration="10540000" />
     </task>
     <servers />
   </component>
@@ -101,29 +190,37 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#File_and_Code_Templates" timestamp="1578453070375">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#File_and_Code_Templates/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1578453070375" />
     <state x="614" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578410539039">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="614" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1578410539039" />
-    <state width="1493" height="221" key="GridCell.Tab.0.bottom" timestamp="1578450686133">
+    <state width="1493" height="291" key="GridCell.Tab.0.bottom" timestamp="1578457946007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1578450686133" />
-    <state width="1493" height="221" key="GridCell.Tab.0.center" timestamp="1578450686133">
+    <state width="1493" height="291" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1578457946007" />
+    <state width="1493" height="291" key="GridCell.Tab.0.center" timestamp="1578457946007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1578450686133" />
-    <state width="1493" height="221" key="GridCell.Tab.0.left" timestamp="1578450686133">
+    <state width="1493" height="291" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1578457946007" />
+    <state width="1493" height="291" key="GridCell.Tab.0.left" timestamp="1578457946007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1578450686133" />
-    <state width="1493" height="221" key="GridCell.Tab.0.right" timestamp="1578450686133">
+    <state width="1493" height="291" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1578457946007" />
+    <state width="1493" height="291" key="GridCell.Tab.0.right" timestamp="1578457946007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1578450686133" />
+    <state width="1493" height="291" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1578457946007" />
     <state x="270" y="0" key="SettingsEditor" timestamp="1578410774719">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1578410774719" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1578455920961">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1578455920961" />
   </component>
 </project>
